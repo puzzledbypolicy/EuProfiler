@@ -1,0 +1,152 @@
+<settings>
+<redraw>1</redraw>
+    <text_color>ffffff</text_color>
+	<text_size>12</text_size>
+  <background>
+    <alpha>100</alpha>
+	<color>d3e0d7</color>
+    <border_alpha>20</border_alpha>
+  </background>
+  <grid>
+    <x>
+      <alpha>5</alpha>
+    </x>
+    <y>
+      <alpha>5</alpha>
+      <fill_color>121212</fill_color>
+      <fill_alpha>2</fill_alpha>
+    </y>
+  </grid>
+  <plot_area>
+    <margins>
+      <left>10</left>
+      <right>10</right>
+      <bottom>10</bottom>
+	  <top>35</top>
+    </margins>
+  </plot_area>
+  <axes>
+    <x>
+      <width>0</width>
+	  <alpha>0</alpha>
+    </x>
+    <y>
+      <width>0</width>
+	  <alpha>0</alpha>
+    </y>
+  </axes>
+  <values>
+     <x>
+	  <enabled>0</enabled>
+      <min>-55</min>
+      <max>55</max>
+    </x>
+	<y>
+      <enabled>0</enabled>
+	  <min>-55</min>
+      <max>55</max>
+    </y>
+  </values>
+  <balloon>
+    <alpha>70</alpha>
+    <text_size>12</text_size>
+    <max_width>150</max_width>
+    <corner_radius>10</corner_radius>
+    <border_width>2</border_width>
+  </balloon>
+  <legend>
+    <enabled>0</enabled>
+  </legend>
+  <zoom_out_button>
+    <color>00CC00</color>
+    <text_color_hover>00CC33</text_color_hover>
+    <text>Show all</text>
+  </zoom_out_button>
+  <help>
+    <button>
+      <x>!40</x>
+      <y>3</y>
+      <color>00CC00</color>
+      <alpha>39</alpha>
+      <text_color_hover>00CC00</text_color_hover>
+      <text_size>13</text_size>
+    </button>
+    <balloon>
+      <text>Circle an area to enlarge</text>
+      <color>00CC00</color>
+      <alpha>54</alpha>
+      <text_size>14</text_size>
+    </balloon>
+  </help>
+  <bullets>
+    <hover_brightness>20</hover_brightness>
+    <grow_time>2</grow_time>
+    <grow_effect>regular</grow_effect>
+    <sequenced_grow>1</sequenced_grow>
+  </bullets>
+  <graphs>
+    <!-- The graph displaying user's position -->
+      <graph gid="0">
+      <balloon_text><![CDATA[<b><font color="#FFFFFF">{description}</font></b>]]></balloon_text>
+	  <color>F56A0D</color>
+    </graph>
+    <graph gid="20">
+      <color>000000</color>
+      <alpha>0</alpha>
+	  <point x='0' y='0'></point>
+			<point x='0' y='50'></point>
+			<point x='50' y='50'></point>
+			<point x='50' y='0'></point>
+             <point x='0' y='0'></point>
+    </graph>
+    <graph gid="21">
+	<point x='0' y='0'></point>
+			<point x='0' y='-50'></point>
+			<point x='-50' y='-50'></point>
+			<point x='-50' y='0'></point>
+             <point x='0' y='0'></point>
+            <color>000000</color>
+            <alpha>0</alpha> 
+</graph>
+  </graphs>
+  <labels>
+    <label lid="0">
+      <text><![CDATA[<b>Position in the Political Landscape</b>]]></text>
+      <x>20</x>
+      <y>5</y>
+      <text_size>13</text_size>
+	  <text_color>000000</text_color>
+      <align>center</align>
+    </label>
+    <label lid="1">
+      <text>More Immigrant Rights</text>
+	  <text_color>000000</text_color>
+      <x>!80</x>
+      <y>196</y>
+    </label>
+    <label lid="2">
+      <text>Less Immigrant</text>
+	  <text_color>000000</text_color>
+      <x>3</x>
+      <y>196</y>
+    </label>
+	<label lid="3">
+      <text>Rights</text>
+	  <text_color>000000</text_color>
+      <x>3</x>
+      <y>209</y>
+    </label>
+    <label lid="4">
+      <text>Higher Immigration Number</text>
+	  <text_color>000000</text_color>
+      <x>190</x>
+      <y>23</y>
+    </label>
+    <label lid="5">
+      <text>Lower Immigration Number</text>
+	  <text_color>000000</text_color>
+      <x>190</x>
+      <y>!18</y>
+    </label>    
+  </labels>
+</settings>

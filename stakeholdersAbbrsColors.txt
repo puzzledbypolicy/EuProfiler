@@ -1,0 +1,69 @@
+USE [DNN6]
+GO
+/****** Object:  Table [dbo].[ATC_PolicyProfiler_Stakeholders]    Script Date: 01/13/2012 10:21:50 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ATC_PolicyProfiler_Stakeholders](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](max) NOT NULL,
+	[Country] [nvarchar](50) NULL,
+	[Abbr] [nvarchar](10) NULL,
+	[Color] [nvarchar](50) NULL,
+	[Logo] [nvarchar](50) NULL,
+ CONSTRAINT [PK_ATC_PolicyProfiler_Stakeholders] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ON
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (1, N'European Trade Union Confederation', N'EU', N'ETUC', N'#E3001B', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (3, N'Business Europe', N'EU', N'BE', N'#014380', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (4, N'Migration Policy Institute', N'EU', N'MPI', N'#63438D', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (6, N'International Organisation for Migration', N'EU', N'IOM', N'#005FAF', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (7, N'Migration Policy Group', N'EU', N'MPG', N'#FF6601', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (8, N'Centre for European Policy Studies', N'EU', N'CEPS', N'#055A43', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (9, N'Il Popolo della Liberta', N'it-IT', N'PDL', N'#00B1E5', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (10, N'Partito Democratico', N'it-IT', N'PD', N'#3A9828', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (11, N'Italia dei Valori', N'it-IT', N'IDV', N'#BDE3F6', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (12, N'Futuro e Liberta', N'it-IT', N'FLI', N'#002776', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (13, N'Lega Nord', N'it-IT', N'LEGA', N'#009102', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (14, N'Unione Di Centro', N'it-IT', N'UDC', N'#1286B5', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (15, N'L''ANOLF Giovani di 2^ Generazione', N'it-IT', N'ANOLF', N'#006138', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (16, N'Confederazione Generale Italiana del Lavoro', N'it-IT', N'CGIL', N'#D41A28', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (17, N'Confidustria', N'it-IT', N'Confind.', N'#819FC3', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (18, N'Chiesa Cattolica in Italia', N'it-IT', N'Chiesa', N'#FED600', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (19, N'Πανελλήνιο Σοσιαλιστικό Κίνημα', N'el-GR', N'ΠΑΣΟΚ', N'#20AD64', N'pasok_logo.swf')
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (20, N'Νέα Δημοκρατία', N'el-GR', N'ΝΔ', N'#68A9D8', N'nd_logo.swf')
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (21, N'Κομμουνιστικό Κόμμα Ελλάδος', N'el-GR', N'ΚΚΕ', N'#F21F3B', N'kke-logo.swf')
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (22, N'Λαϊκός Ορθόδοξος Συναγερμός', N'el-GR', N'ΛΑΟΣ', N'#3D0CD1', N'laos-logo.swf')
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (23, N'Συνασπισμός Ριζοσπαστικής Αριστεράς', N'el-GR', N'ΣΥΡΙΖΑ', N'#EA3C54', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (24, N'Συνήγορος του Πολίτη', N'el-GR', N'Συνήγορος', N'#0198A9', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (25, N'Ελληνική Ένωση για τα Δικαιώματα του Ανθρώπου', N'el-GR', N'ΕΕΔΑ', N'#086297', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (26, N'Ελληνικό Φόρουμ Μεταναστών', N'el-GR', N'ΕΦΜ', N'#F21972', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (27, N'Ορθόδοξη Εκκλησία της Ελλάδας', N'el-GR', N'ΕκκΕλ', N'#C1C141', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (28, N'Οικονομική και Κοινωνική Επιτροπή', N'el-GR', N'ΟΚΕ', N'#F1F2F6', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (30, N'Magyar Szocialista Part', N'hu-HU', N'MSZP', N'#E72009', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (31, N'Magyarorszagert Mozgalom', N'hu-HU', N'JOBBIK', N'#49893D', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (33, N'Lehet Mas a Politika', N'hu-HU', N'LMP', N'#FEF52E', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (34, N'Migransokat Segito Egyesulet', N'hu-HU', N'Menedek', N'#FFFFCB', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (35, N'Magyar Helsinki Bizattsag', N'hu-HU', N'ΜΗΒ', N'#FDB827', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (36, N'DEMOS', N'hu-HU', N'DEMOS', N'#C8C6CE', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (37, N'Partido Socialista Obrero Espanol ', N'es-ES', N'PSOE', N'#EF1920', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (38, N'Partido Popular', N'es-ES', N'PP', N'#18B2E8', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (39, N'Defensor del Pueblo', N'es-ES', N'Defensor', N'#8DA314', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (40, N'CCOO', N'es-ES', N'CCOO', N'#D72B26', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (41, N'Confederacion Espanola de Organizaciones Empresariales', N'es-ES', N'CEOE', N'#003E7E', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (42, N'Coalicion Canaria', N'es-ES', N'CC', N'#FEF102', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (43, N'Partido Nacionalista Vasco', N'es-ES', N'PNV', N'#008140', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (44, N'Izquierda Unida', N'es-ES', N'IU', N'#DC0526', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (45, N'Convergencia I Unio', N'es-ES', N'CIU', N'#1D3688', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (46, N'ACCEM', N'es-ES', N'ACCEM', N'#4590CD', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (47, N'Foro para la Integracion Social de los Inmigrantes', N'es-ES', N'FORO', N'#F39E44', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (48, N'Federation Estatal de Asociaciones de Refugiados e INmigrantes en Espana', N'es-ES', N'FERINE', N'#6DB136', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (50, N'Associazione per gli Studi Giuridici sull''Immigrazione', N'it-IT', N'ASGI', N'#666666', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (51, N'Caritas', N'it-IT', N'Caritas', N'#810010', NULL)
+INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] ([Id], [Name], [Country], [Abbr], [Color], [Logo]) VALUES (52, N'UGT', N'es-ES', N'UGT', N'#CC0001', NULL)
+SET IDENTITY_INSERT [dbo].[ATC_PolicyProfiler_Stakeholders] OFF

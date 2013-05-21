@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}ATC_EuProfiler] DROP CONSTRAINT [FK_{objectQualifier}ATC_EuProfiler_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}ATC_EuProfiler] DROP CONSTRAINT [PK_{objectQualifier}ATC_EuProfiler]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}ATC_EuProfiler].[IX_{objectQualifier}ATC_EuProfiler]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}ATC_EuProfiler]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}ATC_GetEuProfilers]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}ATC_GetEuProfiler]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}ATC_AddEuProfiler]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}ATC_UpdateEuProfiler]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}ATC_DeleteEuProfiler]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

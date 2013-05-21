@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Add Content</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;P&gt;A EuProfiler module&lt;/P&gt;</value>
+  </data>
+  <data name="DefaultContent.Text" xml:space="preserve">
+    <value>Here is some sample content</value>
+  </data>
+  <data name="Matches.Text" xml:space="preserve">
+    <value>Ανάλυση  κοινών σημείων με φορείς</value>
+  </data>
+  <data name="Nearest.Text" xml:space="preserve">
+    <value>Ανάλυση του πλησιέστερου σε εσάς φορέα</value>
+  </data>
+  <data name="Position.Text" xml:space="preserve">
+    <value>Αναλύστε τη θέση σας</value>
+  </data>
+  <data name="RatingLbl.Text" xml:space="preserve">
+    <value>Πόσο σημαντικό είναι το θέμα αυτό για εσάς?</value>
+  </data>
+  <data name="AnswersLbl.Text" xml:space="preserve">
+    <value>Οι απαντήσεις σας</value>
+  </data>
+  <data name="CategoriesLbl.Text" xml:space="preserve">
+    <value>Επιλέξτε κατηγορίες:</value>
+  </data>
+  <data name="ChooseCountryRes.Text" xml:space="preserve">
+    <value>Επιλέξτε τη χώρα σας</value>
+  </data>
+  <data name="HomeLbl.Text" xml:space="preserve">
+    <value>Αρχική</value>
+  </data>
+  <data name="Issues.Text" xml:space="preserve">
+    <value>Ερωτήσεις</value>
+  </data>
+  <data name="RatingsLbl.Text" xml:space="preserve">
+    <value>Οι αξιολογήσεις σας</value>
+  </data>
+  <data name="ResultsLbl.Text" xml:space="preserve">
+    <value>Αποτελέσματα</value>
+  </data>
+  <data name="StakeholLbl.Text" xml:space="preserve">
+    <value>Επιλέξτε έναν Φορέα:</value>
+  </data>
+  <data name="SummaryLbl.Text" xml:space="preserve">
+    <value>Περίληψη των απαντήσεών σας</value>
+  </data>
+  <data name="EsLabel.Text" xml:space="preserve">
+    <value>Ισπανία</value>
+  </data>
+  <data name="GrLabel.Text" xml:space="preserve">
+    <value>Ελλάδα</value>
+  </data>
+  <data name="HuLabel.Text" xml:space="preserve">
+    <value>Ουγγαρία</value>
+  </data>
+  <data name="ItLabel.Text" xml:space="preserve">
+    <value>Ιταλία</value>
+  </data>
+  <data name="ComleteLbl.Text" xml:space="preserve">
+    <value>Ολοκληρωμένο</value>
+  </data>
+  <data name="uDebateLink1.Text" xml:space="preserve">
+    <value>Σύμφωνα με τα αποτελέσματα της έρευνας, φαίνεται ότι έχετε ισχυρές απόψεις σχετικά με τη &lt;i&gt;μετανάστευση για λόγους απασχόλησης-εργασίας&lt;/i&gt;. &lt;br /&gt;&lt;br /&gt;Μπορείτε να έχετε περισσότερη πληροφόρηση και να συζητήσετε για την  πιο πρόσφατη &lt;b&gt;Οδηγία της ΕΕ σχετικά με μία μόνο διαδικασία έκδοσης ενιαίας άδειας σε υπηκόους τρίτων χωρών -διαμονής και απασχόλησης- σε ένα κράτος μέλος της ΕΕ και σχετικά με ένα κοινό σύνολο δικαιωμάτων των εργαζομένων υπηκόων τρίτων χωρών&lt;/b&gt;, καθώς και για άλλες πολιτικές  που σχετίζονται με τη μετανάστευση για λόγους εργασίας</value>
+  </data>
+  <data name="uDebateLink2.Text" xml:space="preserve">
+    <value>Σύμφωνα με τα αποτελέσματα της έρευνας, φαίνεται ότι έχετε ισχυρές απόψεις σχετικά με &lt;i&gt;τη μετανάστευση για λόγους εκπαίδευσης&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt; Μπορείτε να έχετε περισσότερη πληροφόρηση και να συζητήσετε για την εφαρμογή της &lt;b&gt;Οδηγίας της ΕΕ για τη μετανάστευση για λόγους εκπαίδευσης&lt;/b&gt; καθώς και για άλλες εξελίξεις που αφορούν αυτή τη θεματική κατηγορία</value>
+  </data>
+  <data name="uDebateLink3.Text" xml:space="preserve">
+    <value>Σύμφωνα με τα αποτελέσματα της έρευνας, φαίνεται ότι έχετε ισχυρές  απόψεις σχετικά με &lt;i&gt;τη μετανάστευση  για λόγους οικογενειακής επανένωσης&lt;/i&gt;. &lt;br /&gt;&lt;br /&gt;Μπορείτε να έχετε περισσότερη πληροφόρηση και να συζητήσετε για την εφαρμογή της &lt;b&gt;Ευρωπαϊκής Νομοθεσίας περί του δικαιώματος  οικογενειακής επανένωσης&lt;/b&gt; καθώς και για άλλες εξελίξεις  που αφορούν αυτή τη θεματική κατηγορία.</value>
+  </data>
+  <data name="uDebateLink4.Text" xml:space="preserve">
+    <value>Σύμφωνα με τα αποτελέσματα της έρευνας, φαίνεται να έχετε ισχυρές απόψεις σχετικά με τους &lt;i&gt;επί μακρόν διαμένοντες και την πολιτογράφησή τους&lt;/i&gt;. &lt;br /&gt;&lt;br /&gt;Μπορείτε να έχετε περισσότερη πληροφόρηση και  να συζητήσετε  για την εφαρμογή της &lt;b&gt;Οδηγίας της ΕΕ για το καθεστώς των επί μακρόν διαμενόντων&lt;/b&gt; καθώς και για άλλες πτυχές της αυτής θεματικής κατηγορίας</value>
+  </data>
+  <data name="uDebateLink5.Text" xml:space="preserve">
+    <value>Σύμφωνα με τα αποτελέσματα της έρευνας, φαίνεται ότι έχετε πιο ισχυρές απόψεις σχετικά με &lt;i&gt;την παράνομη μετανάστευση και τις πολιτικές επιστροφής και επανεισδοχής&lt;/i&gt;. &lt;br /&gt;&lt;br /&gt;Μπορείτε να έχετε περισσότερη πληροφόρηση και να συζητήσετε σχετικά με την εφαρμογή της &lt;b&gt;Οδηγίας της ΕΕ για την επιβολή κυρώσεων στους εργοδότες που απασχολούν παράνομα υπηκόους τρίτων χωρών&lt;/b&gt; καθώς και για άλλες εξελίξεις  που αφορούν αυτή τη θεματική κατηγορία</value>
+  </data>
+  <data name="ResultsWrn.Text" xml:space="preserve">
+    <value>Οι θέσεις σας δεν μπορούν να εμφανιστούν, επειδη δεν έχετε απαντήσει στις σχετικές δηλώσεις. &lt;br /&gt;Παρακαλώ κάντε κλικ στην Αρχική Σελίδα και απαντήστε στις ερωτήσεις. Θα σας πάρει μόνο λίγα λεπτά</value>
+  </data>
+  <data name="TakePart.Text" xml:space="preserve">
+    <value>Πάρτε μέρος τώρα!</value>
+  </data>
+  <data name="no.Text" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="restart.Text" xml:space="preserve">
+    <value>Παρακαλούμε προσέξτε ότι συμφωνώντας οι απαντήσεις σας θα χαθούν. Θέλετε να συνεχίσετε?</value>
+  </data>
+  <data name="restartTitle.Text" xml:space="preserve">
+    <value>Καθαρισμός και επανεκκίνηση</value>
+  </data>
+  <data name="yes.Text" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="q1Label.Text" xml:space="preserve">
+    <value>Τόπος γέννησης</value>
+  </data>
+  <data name="q2Label.Text" xml:space="preserve">
+    <value>Χώρα Διαμονής</value>
+  </data>
+  <data name="q3Label.Text" xml:space="preserve">
+    <value>Ηλικία</value>
+  </data>
+  <data name="q4Label.Text" xml:space="preserve">
+    <value>Φύλο</value>
+  </data>
+  <data name="q5Label.Text" xml:space="preserve">
+    <value>Επίπεδο Εκπαίδευσης</value>
+  </data>
+  <data name="q6Label.Text" xml:space="preserve">
+    <value>Εργάζεστε;</value>
+  </data>
+  <data name="You.Text" xml:space="preserve">
+    <value>Εσείς</value>
+  </data>
+  <data name="YourPosition.Text" xml:space="preserve">
+    <value>Η θέση σας</value>
+  </data>
+  <data name="InterStakeholders.Text" xml:space="preserve">
+    <value>Διεθνείς φορείς </value>
+  </data>
+  <data name="LoggedinSave.Text" xml:space="preserve">
+    <value>Πρέπει να συνδεθείτε για να σώσετε τα αποτελέσματά σας</value>
+  </data>
+  <data name="fb_share_title_home.Text" xml:space="preserve">
+    <value>Συμφωνείτε με την τρέχουσα μεταναστευτική πολιτική της χώρας; Ποια είναι η τρέχουσα μεταναστευτική πολιτική της χώρας σας;</value>
+  </data>
+  <data name="Share_text_results.Text" xml:space="preserve">
+    <value>Just did a Puzzled by Policy test and matches closest to: </value>
+  </data>
+  <data name="uDebateHeader.Text" xml:space="preserve">
+    <value>Συμμετέχετε στις συζητήσεις!</value>
+  </data>
+  <data name="Overview.Text" xml:space="preserve">
+    <value>Όλοι οι χρήστες</value>
+  </data>
+  <data name="PositionLbl.Text" xml:space="preserve">
+    <value>Αναλύστε τη θέση σας</value>
+  </data>
+  <data name="CountrySelection.Text" xml:space="preserve">
+    <value>Επιλέξτε χώρες:</value>
+  </data>
+  <data name="demographicsHeader.Text" xml:space="preserve">
+    <value>Αφιερώνοντας 5-10 δευτερόλεπτα για την απάντηση των ερωτήσεων αυτών, έχετε πολύτιμη συνεισφορά στην έρευνά μας. Όλες οι απαντήσεις σας θα χρησιμοποιηθούν αποκλειστικά για στατιστικούς σκοπούς.&lt;br /&gt; Ευχαριστούμε για το χρόνο σας!</value>
+  </data>
+  <data name="Education1.Text" xml:space="preserve">
+    <value>Δευτεροβάθμια Εκπαίδευση</value>
+  </data>
+  <data name="Education2.Text" xml:space="preserve">
+    <value>Τριτοβάθμια Εκπαίδευση</value>
+  </data>
+  <data name="Education3.Text" xml:space="preserve">
+    <value>Μεταπτυχιακός Τίτλος Σπουδών</value>
+  </data>
+  <data name="Education4.Text" xml:space="preserve">
+    <value>Διδακτορικός Τίτλος Σπουδών</value>
+  </data>
+  <data name="Education5.Text" xml:space="preserve">
+    <value>Άλλο</value>
+  </data>
+  <data name="SexFemale.Text" xml:space="preserve">
+    <value>Γυναίκα</value>
+  </data>
+  <data name="SexMale.Text" xml:space="preserve">
+    <value>Άνδρας</value>
+  </data>
+  <data name="DemogrThanks.Text" xml:space="preserve">
+    <value>Οι απαντήσεις σας αποθηκεύτηκαν. Πατήστε ΟΚ προκειμένου να συνεχίσετε.</value>
+  </data>
+  <data name="Occupation1.Text" xml:space="preserve">
+    <value>Επιχειρηματίας (εργοδότης)</value>
+  </data>
+  <data name="Occupation10.Text" xml:space="preserve">
+    <value>Άλλο</value>
+  </data>
+  <data name="Occupation11.Text" xml:space="preserve">
+    <value>ΔΞ/ΔΑ</value>
+  </data>
+  <data name="Occupation2.Text" xml:space="preserve">
+    <value>Αυτοαπασχολούμενος</value>
+  </data>
+  <data name="Occupation3.Text" xml:space="preserve">
+    <value>Διευθυντής</value>
+  </data>
+  <data name="Occupation4.Text" xml:space="preserve">
+    <value>Υπάλληλος</value>
+  </data>
+  <data name="Occupation5.Text" xml:space="preserve">
+    <value>Σε αναζήτηση εργασίας</value>
+  </data>
+  <data name="Occupation6.Text" xml:space="preserve">
+    <value>Οικιακά/Σε άδεια μητρότητας</value>
+  </data>
+  <data name="Occupation7.Text" xml:space="preserve">
+    <value>Φοιτητής</value>
+  </data>
+  <data name="Occupation8.Text" xml:space="preserve">
+    <value>Συνταξιούχος</value>
+  </data>
+  <data name="Occupation9.Text" xml:space="preserve">
+    <value>Μη ικανός για εργασία</value>
+  </data>
+  <data name="Occupation0.Text" xml:space="preserve">
+    <value>- Επιλέξτε  -</value>
+  </data>
+</root>

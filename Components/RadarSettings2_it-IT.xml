@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+<redraw>1</redraw>
+<background><alpha>100</alpha><color>d3e0d7</color><border_alpha>20</border_alpha></background> 
+<values>
+ <min>0</min>
+ <max>100</max>
+</values>
+<grid>
+	<type>circles</type>
+	<fill_color>000330</fill_color>
+</grid>
+  <axes>
+    <labels>
+      <width>140</width>
+    </labels>
+  </axes>
+<balloon>
+	<show>{title}: {value}%</show>
+	<corner_radius>3</corner_radius>
+</balloon>
+<legend><alpha>91</alpha><align>center</align></legend>
+<radar><radius>77%</radius><grow_time>5</grow_time><sequenced_grow>1</sequenced_grow></radar>
+<export_as_image><file>DesktopModules/EuProfiler/js/ammap/pbp.bmp</file><target>export</target><color>00FF99</color><alpha>36</alpha></export_as_image>
+<labels>
+<label lid='0'><text><![CDATA[<b>Punti di vista a confronto</b>]]></text><y>23</y><text_size>12</text_size><align>center</align></label></labels>
+</settings>    
